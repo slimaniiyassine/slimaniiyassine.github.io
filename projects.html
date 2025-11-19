@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Slimani Yassine - Projects and Articles">
+    <title>Slimani Yassine - Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+            <i class="fas fa-sun"></i>
+        </button>
+
+        <aside class="sidebar">
+            <div class="profile-card glass-panel">
+                <div class="profile-pic-placeholder">
+                    <span class="initials">SY</span>
+                </div>
+                <div class="profile-header">
+                    <h1 class="name">SLIMANI<br>YASSINE</h1>
+                    <h2 class="title">Software Engineer</h2>
+                </div>
+
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-item"><i class="fas fa-home"></i> <span>Presentation</span></a>
+                    <a href="resume.html" class="nav-item"><i class="fas fa-file-alt"></i> <span>Resume</span></a>
+                    <a href="projects.html" class="nav-item active"><i class="fas fa-project-diagram"></i>
+                        <span>Projects</span></a>
+                    <a href="resources.html" class="nav-item"><i class="fas fa-book"></i> <span>Resources</span></a>
+                </nav>
+
+                <div class="contact-info">
+                    <a href="mailto:slimaniyassine@gmail.com" class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <span>slimaniyassine@gmail.com</span>
+                    </a>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="section glass-panel animate-up">
+                <h3 class="section-title"><i class="fas fa-newspaper"></i> Articles</h3>
+                <div class="article-card">
+                    <h4>A Developer's Guide to Using Gemini with an MCP Server</h4>
+                    <p>A comprehensive guide on integrating Google's Gemini AI with Model Context Protocol servers for
+                        enhanced developer workflows.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+
+            <section class="section glass-panel animate-up" style="animation-delay: 0.2s;">
+                <h3 class="section-title"><i class="fas fa-code-branch"></i> Projects</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h4>MyBell App</h4>
+                        <p>Webby Awards Winner application for Bell Canada. Migrated to Jetpack Compose.</p>
+                        <div class="tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Compose</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Nespresso App</h4>
+                        <p>Global e-commerce application. Implemented clean architecture and multi-module design.</p>
+                        <div class="tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">RxJava</span>
+                            <span class="tag">Clean Arch</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="theme.js"></script>
+</body>
+
+</html>

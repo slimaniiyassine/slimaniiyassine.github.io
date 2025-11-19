@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Slimani Yassine - Software Engineer Portfolio">
+    <title>Slimani Yassine - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+            <i class="fas fa-sun"></i>
+        </button>
+
+        <aside class="sidebar">
+            <div class="profile-card glass-panel">
+                <div class="profile-pic-placeholder">
+                    <span class="initials">SY</span>
+                </div>
+                <div class="profile-header">
+                    <h1 class="name">SLIMANI<br>YASSINE</h1>
+                    <h2 class="title">Software Engineer</h2>
+                </div>
+
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-item active"><i class="fas fa-home"></i>
+                        <span>Presentation</span></a>
+                    <a href="resume.html" class="nav-item"><i class="fas fa-file-alt"></i> <span>Resume</span></a>
+                    <a href="projects.html" class="nav-item"><i class="fas fa-project-diagram"></i>
+                        <span>Projects</span></a>
+                    <a href="resources.html" class="nav-item"><i class="fas fa-book"></i> <span>Resources</span></a>
+                </nav>
+
+                <div class="contact-info">
+                    <a href="mailto:slimaniyassine@gmail.com" class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <span>slimaniyassine@gmail.com</span>
+                    </a>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="hero-section glass-panel animate-up">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Yassine</span>.</h1>
+                <p class="hero-subtitle">Senior Android Developer & System Architect</p>
+                <p class="hero-text">
+                    I am an experienced Mobile Engineer with 8 years of expertise in native Android development.
+                    I specialize in building high-performance applications with clean architecture and modern
+                    technologies like Kotlin Multiplatform and Jetpack Compose.
+                </p>
+                <div class="hero-actions">
+                    <a href="resume.html" class="btn-primary">View My Resume</a>
+                    <a href="projects.html" class="btn-secondary">See My Work</a>
+                </div>
+            </section>
+
+            <section class="section glass-panel animate-up" style="animation-delay: 0.2s;">
+                <h3 class="section-title"><i class="fas fa-star"></i> Key Highlights</h3>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Leadership</h4>
+                        <p>Led 5 teams of 5 developers across large-scale projects.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Expert</h4>
+                        <p>8+ years in Android, Kotlin, and Cross-platform dev.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-cogs"></i>
+                        <h4>Architecture</h4>
+                        <p>Strong background in Clean Architecture & SOLID principles.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section glass-panel animate-up" style="animation-delay: 0.3s;">
+                <h3 class="section-title"><i class="fas fa-images"></i> Gallery</h3>
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="images/team_photo.jpg" alt="Team Photo">
+                            <div class="slide-caption">Cnexia Tech Team</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="placeholder-slide">
+                                <i class="fas fa-camera"></i>
+                                <p>More photos coming soon...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Previous Slide"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next" aria-label="Next Slide"><i
+                            class="fas fa-chevron-right"></i></button>
+                    <div class="carousel-dots"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="theme.js"></script>
+    <script src="carousel.js"></script>
+</body>
+
+</html>
